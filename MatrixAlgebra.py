@@ -35,8 +35,4 @@ def solveMatrix(a, b, c):
     print("x = ", x_val, "\n")
 
 
-    
-
-
-
 solveMatrix(a1, b1, c1)
