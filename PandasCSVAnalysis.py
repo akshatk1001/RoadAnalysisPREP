@@ -1,10 +1,13 @@
+import numpy as np
+import pandas as pd
+
 a2 = pd.read_csv("data.csv")
 
 print(a2, "\n")
 
 print(a2.head(2), "\n")
 
-a2["Cals 2"] = a2["Calories"] * 2
+a2["Cals 2"] = a2["Calories"] * 2 
 
 del a2["Date"]
 
